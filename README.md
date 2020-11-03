@@ -2,7 +2,7 @@
 
 # A Quick Start
 
-- run auto script generator
+- run ScenarioEditor
   ```
   # Set input parameters in ScenarioEditor_options.py
   # run ScenarioEditor
