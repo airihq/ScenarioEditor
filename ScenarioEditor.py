@@ -87,7 +87,7 @@ class MyWindow(QMainWindow, form_class):
         
     def click_LeftListWidget(self):
         if self.LeftList.currentItem() == None:
-            print('currentItem is None')
+            # print('currentItem is None')
             return
 
         self.current_category = self.LeftList.currentItem().text()
@@ -109,7 +109,7 @@ class MyWindow(QMainWindow, form_class):
         current_row = self.RightList.row(item)
         current_state = item.checkState()
         self.category_dict[self.current_category]['Check'][current_row] = current_state
-        print(self.category_dict[self.current_category]['Check'])
+        # print(self.category_dict[self.current_category]['Check'])
 
     def click_export(self):
         export_dict = {}
